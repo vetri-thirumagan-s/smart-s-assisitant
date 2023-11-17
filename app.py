@@ -28,6 +28,6 @@ with sr.Microphone() as scr:
     audio_input=r.listen(scr)
     text_from_audio=r.recognize_google(audio_input)
     print(text_from_audio)
-    my_name="hey google"
+    my_name="hey smart"
     if my_name==text_from_audio.lower():
         main.starts()
